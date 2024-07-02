@@ -17,7 +17,7 @@ def show_widget():
     b1.configure(text="Hide", command=hide_widget)
 
 #Below is 
-angerCho = tk.Label(main_window, text="Anger Management", font='Aerial')
+angerCho = tk.Label(main_window, text="Anger \nManagement", font='Aerial')
 angerCho.grid(row=1,column=1)
 
 #Below is the labels used for this indivdual window
@@ -25,7 +25,7 @@ anger = tk.Label(main_window, text="To manage anger effectively, start by pausin
 
 # Add a Button widget
 b1 = tk.Button(main_window, text="Show", command=show_widget)
-b1.grid(row=1,column=2,padx=1,pady=5)
+b1.grid(row=1,column=2,padx=1,pady=40)
 
 
 #---------------------------------------------------------------------------------------------------------------
