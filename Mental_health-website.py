@@ -44,16 +44,7 @@ angerCho = tk.Label(main_window,
 angerCho.grid(row=1,column=1)
 
 anger = tk.Label(main_window, 
-                 text="""To manage anger effectively, 
-                 start by pausing and taking deep breaths to calm 
-                 \nyourself before reacting, which helps prevent 
-                 impulsive actions. \nReflect on the specific triggers 
-                 that caused your anger to understand the root of 
-                 \nthe issue and develop better strategies for handling 
-                 similar situations in the future.\nWhen expressing 
-                 your feelings, use 'I' statements like 'I feel upset when...' 
-                 \nto communicate your emotions constructively without blaming 
-                 others, promoting a more \npeaceful and productive dialogue.""", 
+                 text="""Maqnaging anger """, 
                  font=('Aerial 8'), 
                  borderwidth=2, 
                  relief="groove", 
@@ -73,15 +64,7 @@ depressionCho = tk.Label(main_window, text="Depression",
 depressionCho.grid(row=2,column=1)
 
 depression = tk.Label(main_window, 
-                      text="""Managing depression effectively involves several steps. 
-                      First, seek professional help \nfrom a therapist or doctor who can 
-                      provide counseling and, if needed, medication.\nTake care of 
-                      yourself by exercising regularly, eating healthy foods, 
-                      and getting enough\nsleep,as these can all improve your mood. 
-                      Surround yourself with supportive friends\nand family toreduce 
-                      feelings of loneliness. Practice mindfulness or meditation, set 
-                      small\nand achievable goals, and engage in activities you enjoy 
-                      to help lift your spirits.""", 
+                      text="""Managing depression """, 
                       font=('Aerial 8'), 
                       borderwidth=2, 
                       relief="groove",
@@ -100,7 +83,7 @@ stressCho = tk.Label(main_window,
                      bg='#FF6B1F')
 stressCho.grid(row=3,column=1)
 
-stress = tk.Label(main_window, text="""Managing stress involves several simple steps. First, identify what causes your stress so you can address it directly.\nPractice relaxation techniques like deep breathing, meditation, or yoga to calm yourself. Stay organized with a schedule or to-do list to manage tasks better. Exercise regularly to reduce stress hormones and boost your mood. Take breaks to relax and recharge. Talk to friends, family, or support groups to share your feelings and get support. Maintain a healthy lifestyle by eating well, sleeping enough, and avoiding too much caffeine or alcohol. Set boundaries and learn to say no to avoid taking on too much. If stress becomes overwhelming, seek help from a therapist or counselor. """, font=('Aerial 8'), 
+stress = tk.Label(main_window, text="""Managing stress """, font=('Aerial 8'), 
                   borderwidth=2, 
                   relief="groove", 
                   bg='#E8A785')
@@ -112,6 +95,6 @@ Sb1.grid(row=3,column=2,padx=1,pady=40)
 
 mainWindow_icon = PhotoImage(file='Screenshot 2024-01-10 130335.png')
 main_window.iconphoto(True,mainWindow_icon)
-# main_window.config(background="#EDCDFF")
+main_window.config(background="#B3B3B3")
 
 main_window.mainloop()
